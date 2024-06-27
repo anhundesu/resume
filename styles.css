@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffcc00; /* Yellow background */
+    color: #333; /* Dark text for contrast */
+}
+
+header {
+    background-color: #ffcc00; /* Yellow header */
+    text-align: center;
+    padding: 20px;
+}
+
+#about-me,
+#resume,
+#project-showcase,
+#contact {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White sections */
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Additional styles for buttons, links, etc., if needed */
+button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffd700;
+}
